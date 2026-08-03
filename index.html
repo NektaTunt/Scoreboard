@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Scoreboard</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Happy+Monkey&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="layout">
+            
+            <div class="Home">
+                <h1 class="title-el">HOME</h1>
+                <h2 id="HomeScore" class="score">0</h2>
+                <div class="score-button">
+                    <button id="button-el" onclick="add1Home()">+1</button>
+                    <button id="button-el" onclick="add2Home()">+2</button>
+                    <button id="button-el" onclick="add3Home()">+3</button>
+                </div>
+            </div>
+            <div class="Guest">
+                <h1 class="title-el">GUEST</h1>
+                <h2 id="GuestScore" class="score">0</h2>
+                <div class="score-button">
+                    <button id="button-el" onclick="add1Guest()">+1</button>
+                    <button id="button-el" onclick="add2Guest()">+2</button>
+                    <button id="button-el" onclick="add3Guest()">+3</button>
+                </div>
+            </div>
+        </div>
+        <script src="Scoreboard.js"></script>
+    </body>
+</html>

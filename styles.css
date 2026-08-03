@@ -1,0 +1,41 @@
+
+body {
+    background-color:#002855;
+}
+
+.title-el {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+}
+
+.layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.score {
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-size: 80px;
+    color: darkred;
+    border: solid;
+    background-color: black;
+    border-color: black;
+    border-radius: 5px;
+}
+
+#button-el {
+    font-family: 'Black Ops One', system-ui;
+    width: 40px;
+    height: 40px;
+    border: solid;
+    color: #979dac;
+    border-color: #979dac;
+    border-radius: 5px;
+    background-color: #002855;
+
+}
